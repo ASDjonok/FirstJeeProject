@@ -42,11 +42,12 @@
    "<p>Count (jsp) = " + session.getAttribute("count") + "</p>"
 %>
 
-<%-- todo check why it was broken for user/registration cases --%>
-<%--<%
+<%
     Cart cart = (Cart)session.getAttribute("cart");
-    out.print("Cart (jsp): " + cart.getName() + " " + cart.getQuantity());
-%>--%>
+    if (cart != null) {
+        out.print("Cart (jsp): " + cart.getName() + " " + cart.getQuantity());
+    }
+%>
 <%--<%
     out.println(new MyClass().myMethod());
 %>

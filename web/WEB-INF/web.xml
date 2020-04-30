@@ -11,6 +11,7 @@
         <servlet-name>MyServlet</servlet-name>
         <url-pattern>/hello-world</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>FirstJsp</servlet-name>
         <jsp-file>/FirstJsp.jsp</jsp-file>
@@ -18,5 +19,32 @@
     <servlet-mapping>
         <servlet-name>FirstJsp</servlet-name>
         <url-pattern>/first-jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetCookieServlet</servlet-name>
+        <servlet-class>SetCookieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetCookieServlet</servlet-name>
+        <url-pattern>/set-cookie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetCookieServlet</servlet-name>
+        <servlet-class>GetCookieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetCookieServlet</servlet-name>
+        <url-pattern>/get-cookie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteCookieServlet</servlet-name>
+        <servlet-class>DeleteCookieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteCookieServlet</servlet-name>
+        <url-pattern>/delete-cookie</url-pattern>
     </servlet-mapping>
 </web-app>
