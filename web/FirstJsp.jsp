@@ -18,6 +18,7 @@
 <html>
 <head>
     <title>First JSP</title>
+    <link href="test.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 

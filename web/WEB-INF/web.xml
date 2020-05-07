@@ -47,4 +47,13 @@
         <servlet-name>DeleteCookieServlet</servlet-name>
         <url-pattern>/delete-cookie</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LibraryServlet</servlet-name>
+        <servlet-class>LibraryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LibraryServlet</servlet-name>
+        <url-pattern>/library</url-pattern>
+    </servlet-mapping>
 </web-app>
